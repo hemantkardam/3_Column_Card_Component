@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca' ,'Big Shoulders Display';
+}
+h1{
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-family: "Big Shoulders";
+    font-weight: 700;
+    margin: 2rem 0;
+}
+img{
+    width: 60px;
+    height: 40px;
+}
+p{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    line-height: 1.75rem;
+    margin-bottom: 5rem;
+}
+
+main{
+    min-height: 90vh;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Button CSS Start Here */
+
+button{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 1.5rem;
+    border: none;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    padding: 1rem 2.25rem;
+        align-self: flex-start;
+
+}
+.card-orange button{
+    color: hsl(31, 77%, 52%);
+}
+.card-cyan button{
+    color: hsl(184, 100%, 22%);
+}
+.card-green button{
+    color: hsl(179, 100%, 13%);
+}
+.card-orange button:active{
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid white;
+    cursor: pointer;
+}
+.card-cyan button:active{
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid white;
+    cursor: pointer;
+}
+.card-green button:active{
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+/* Button CSS Ends Here */
+
+
+/* Card CSS Start Here */
+.card-container{
+    display: flex;
+    color: white;
+    max-width: 910px;
+    border-radius: 12px; 
+    overflow: hidden;
+}
+.card{
+    padding: 3rem;
+    display:flex;
+    flex-direction: column;
+}
+.card-orange{
+    background-color: hsl(31, 77%, 52%);
+}
+.card-cyan{
+    background-color: hsl(184, 100%, 22%);
+}
+.card-green{
+    background-color: hsl(179, 100%, 13%);
+}
+/* Card CSS Ends Here */
+
+@media (max-width:1400px) and (min-width:451px) {
+    .card button{
+        margin-top: auto;
+    }
+}
+
+@media (max-width:450px) {
+    .card-container{
+        flex-direction: column;
+    }
+    p{
+        margin-bottom: 2rem;
+    }
+
+}
