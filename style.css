@@ -98,13 +98,13 @@ button{
 }
 /* Card CSS Ends Here */
 
-@media (max-width:1400px) and (min-width:451px) {
+@media (max-width:1400px) and (min-width:541px) {
     .card button{
         margin-top: auto;
     }
 }
 
-@media (max-width:450px) {
+@media (max-width:540px) {
     .card-container{
         flex-direction: column;
     }
